@@ -1,0 +1,90 @@
+import { GridRenderCellParams } from "@mui/x-data-grid";
+
+const tableStyles = {
+  tableContainer: (isSidebarOpen: boolean) => ({
+    bgcolor: "white",
+    maxWidth: !isSidebarOpen ? "1200px" : "80%",
+    mx: "auto",
+    fontFamily: "Poppins",
+    paddingX: "2em",
+    padding: "0",
+    width: "100%",
+  }),
+  tableOutline: {
+    mt: 3,
+    width: "100%",
+    flexGrow: 1,
+    maxHeight: "401px",
+    overflow: "hidden",
+    display: "flex",
+    flexDirection: "column",
+    border: "1px solid #0000001A",
+    boxShadow: "0 1px 2px #0000000D",
+    margin: "0",
+  },
+  tableDataGrid: {
+    bgcolor: "#f0f4ff",
+    color: "#1e3a8a",
+    border: "none",
+    fontWeight: 500,
+    maxWidth: "100%",
+    maxHeight: "200px",
+    minHeight: "200px",
+    "& .MuiDataGrid-columnHeaders": {
+      bgcolor: "#fcfcfd",
+      color: "#667085",
+      fontWeight: "bold",
+      fontFamily: "Poppins",
+      position: "sticky",
+      top: 0,
+      zIndex: 2,
+    },
+    "& .MuiDataGrid": {},
+    "& .MuiDataGrid-cell": {
+      fontFamily: "Poppins",
+      fontSize: "0.75rem",
+      color: "#1e3a8a",
+    },
+    "& .MuiDataGrid-row:nth-of-type(even)": { bgcolor: "white" },
+    "& .MuiDataGrid-cell:focus, & .MuiDataGrid-cell:focus-within": {
+      outline: "none",
+    },
+  },
+  tableCellContainer: { display: "flex", alignItems: "center", height: "100%" },
+  tableTextTooltip: {
+    bgcolor: "#4F4F4F",
+    color: "white",
+    padding: "0.5em",
+    borderRadius: 0,
+    boxShadow: 1,
+  },
+  tableText: {
+    fontFamily: "Poppins",
+    fontSize: "0.75rem",
+    color: "#1e3a8a",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    fontWeight: "500",
+    textOverflow: "ellipsis",
+    width: "100%",
+  },
+  tableIconColor: { color: "#1e3a8a" },
+  tableRuleIcon: (params: GridRenderCellParams) => ({
+    fontSize: "8px !important",
+    color: `${params.value === "Active" ? "#2A9D8F" : "#A9A9A9"} !important`,
+    ml: "8px",
+  }),
+  tableRuleChip: (params: GridRenderCellParams) => ({
+    fontSize: "0.75rem",
+    height: "24px",
+    "& .MuiChip-label": {
+      px: 1,
+      fontWeight: "500 !important",
+    },
+    border: `1px solid ${params.value === "Active" ? "#2A9D8F" : "#A9A9A9"}`,
+    color: params.value === "Active" ? "#2A9D8F" : "#A9A9A9",
+    bgcolor: "transparent",
+  }),
+};
+
+export { tableStyles };

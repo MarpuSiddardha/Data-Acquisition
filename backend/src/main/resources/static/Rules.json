@@ -1,0 +1,644 @@
+{
+  "Rules": [
+    {
+      "Rule_ID": 101,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "High Temperature Alert",
+      "Tags": ["Temperature", "Alert", "Critical"],
+      "Last_Updated": "2025-01-20T14:35:00Z"
+    },
+    {
+      "Rule_ID": 102,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Low Pressure Alert",
+      "Tags": ["Pressure", "Monitoring", "Warning"],
+      "Last_Updated": "2025-01-19T10:20:00Z"
+    },
+    {
+      "Rule_ID": 103,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Humidity Level Check",
+      "Tags": ["Humidity", "Monitoring"],
+      "Last_Updated": "2025-01-18T08:15:00Z"
+    },
+    {
+      "Rule_ID": 104,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Smoke Detection Alert",
+      "Tags": ["Smoke", "Fire", "Safety"],
+      "Last_Updated": "2025-01-17T17:50:00Z"
+    },
+    {
+      "Rule_ID": 105,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Vibration Level Monitoring",
+      "Tags": ["Vibration", "Machine", "Health"],
+      "Last_Updated": "2025-01-16T12:00:00Z"
+    },
+    {
+      "Rule_ID": 106,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "CO2 Level Alert",
+      "Tags": ["CO2", "Air Quality", "Critical"],
+      "Last_Updated": "2025-01-15T14:30:00Z"
+    },
+    {
+      "Rule_ID": 107,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Energy Consumption Monitoring",
+      "Tags": ["Energy", "Efficiency", "Tracking"],
+      "Last_Updated": "2025-01-14T09:45:00Z"
+    },
+    {
+      "Rule_ID": 108,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Water Flow Alert",
+      "Tags": ["Water", "Flow", "Monitoring"],
+      "Last_Updated": "2025-01-13T16:15:00Z"
+    },
+    {
+      "Rule_ID": 109,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Gas Leak Detection",
+      "Tags": ["Gas", "Leak", "Safety"],
+      "Last_Updated": "2025-01-12T18:05:00Z"
+    },
+    {
+      "Rule_ID": 110,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "System Health Check",
+      "Tags": ["System", "Health", "Diagnostics"],
+      "Last_Updated": "2025-01-11T11:20:00Z"
+    },
+    {
+      "Rule_ID": 111,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Battery Voltage Alert",
+      "Tags": ["Battery", "Voltage", "Warning"],
+      "Last_Updated": "2025-01-10T13:10:00Z"
+    },
+    {
+      "Rule_ID": 112,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "Overcurrent Detection",
+      "Tags": ["Current", "Safety", "Alert"],
+      "Last_Updated": "2025-01-09T15:25:00Z"
+    },
+    {
+      "Rule_ID": 113,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Ambient Light Monitoring",
+      "Tags": ["Light", "Monitoring"],
+      "Last_Updated": "2025-01-08T16:45:00Z"
+    },
+    {
+      "Rule_ID": 114,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Network Connectivity Check",
+      "Tags": ["Network", "Connectivity", "Diagnostics"],
+      "Last_Updated": "2025-01-07T11:30:00Z"
+    },
+    {
+      "Rule_ID": 115,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "High Voltage Alert",
+      "Tags": ["Voltage", "High", "Alert"],
+      "Last_Updated": "2025-01-06T14:20:00Z"
+    },
+    {
+      "Rule_ID": 116,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Fan Speed Monitoring",
+      "Tags": ["Fan", "Speed", "Tracking"],
+      "Last_Updated": "2025-01-05T10:15:00Z"
+    },
+    {
+      "Rule_ID": 117,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Generator Fuel Level",
+      "Tags": ["Generator", "Fuel", "Critical"],
+      "Last_Updated": "2025-01-04T09:50:00Z"
+    },
+    {
+      "Rule_ID": 118,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Pump Pressure Monitoring",
+      "Tags": ["Pump", "Pressure", "Warning"],
+      "Last_Updated": "2025-01-03T12:00:00Z"
+    },
+    {
+      "Rule_ID": 119,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Fire Suppression System",
+      "Tags": ["Fire", "Suppression", "Safety"],
+      "Last_Updated": "2025-01-02T17:40:00Z"
+    },
+    {
+      "Rule_ID": 120,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Routine Diagnostics",
+      "Tags": ["Diagnostics", "Routine"],
+      "Last_Updated": "2025-01-01T19:00:00Z"
+    },
+    {
+      "Rule_ID": 101,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "High Temperature Alert",
+      "Tags": ["Temperature", "Alert", "Critical"],
+      "Last_Updated": "2025-01-20T14:35:00Z"
+    },
+    {
+      "Rule_ID": 102,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Low Pressure Alert",
+      "Tags": ["Pressure", "Monitoring", "Warning"],
+      "Last_Updated": "2025-01-19T10:20:00Z"
+    },
+    {
+      "Rule_ID": 103,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Humidity Level Check",
+      "Tags": ["Humidity", "Monitoring"],
+      "Last_Updated": "2025-01-18T08:15:00Z"
+    },
+    {
+      "Rule_ID": 104,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Smoke Detection Alert",
+      "Tags": ["Smoke", "Fire", "Safety"],
+      "Last_Updated": "2025-01-17T17:50:00Z"
+    },
+    {
+      "Rule_ID": 105,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Vibration Level Monitoring",
+      "Tags": ["Vibration", "Machine", "Health"],
+      "Last_Updated": "2025-01-16T12:00:00Z"
+    },
+    {
+      "Rule_ID": 106,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "CO2 Level Alert",
+      "Tags": ["CO2", "Air Quality", "Critical"],
+      "Last_Updated": "2025-01-15T14:30:00Z"
+    },
+    {
+      "Rule_ID": 107,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Energy Consumption Monitoring",
+      "Tags": ["Energy", "Efficiency", "Tracking"],
+      "Last_Updated": "2025-01-14T09:45:00Z"
+    },
+    {
+      "Rule_ID": 108,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Water Flow Alert",
+      "Tags": ["Water", "Flow", "Monitoring"],
+      "Last_Updated": "2025-01-13T16:15:00Z"
+    },
+    {
+      "Rule_ID": 109,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Gas Leak Detection",
+      "Tags": ["Gas", "Leak", "Safety"],
+      "Last_Updated": "2025-01-12T18:05:00Z"
+    },
+    {
+      "Rule_ID": 110,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "System Health Check",
+      "Tags": ["System", "Health", "Diagnostics"],
+      "Last_Updated": "2025-01-11T11:20:00Z"
+    },
+    {
+      "Rule_ID": 111,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Battery Voltage Alert",
+      "Tags": ["Battery", "Voltage", "Warning"],
+      "Last_Updated": "2025-01-10T13:10:00Z"
+    },
+    {
+      "Rule_ID": 112,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "Overcurrent Detection",
+      "Tags": ["Current", "Safety", "Alert"],
+      "Last_Updated": "2025-01-09T15:25:00Z"
+    },
+    {
+      "Rule_ID": 113,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Ambient Light Monitoring",
+      "Tags": ["Light", "Monitoring"],
+      "Last_Updated": "2025-01-08T16:45:00Z"
+    },
+    {
+      "Rule_ID": 114,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Network Connectivity Check",
+      "Tags": ["Network", "Connectivity", "Diagnostics"],
+      "Last_Updated": "2025-01-07T11:30:00Z"
+    },
+    {
+      "Rule_ID": 115,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "High Voltage Alert",
+      "Tags": ["Voltage", "High", "Alert"],
+      "Last_Updated": "2025-01-06T14:20:00Z"
+    },
+    {
+      "Rule_ID": 116,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Fan Speed Monitoring",
+      "Tags": ["Fan", "Speed", "Tracking"],
+      "Last_Updated": "2025-01-05T10:15:00Z"
+    },
+    {
+      "Rule_ID": 117,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Generator Fuel Level",
+      "Tags": ["Generator", "Fuel", "Critical"],
+      "Last_Updated": "2025-01-04T09:50:00Z"
+    },
+    {
+      "Rule_ID": 118,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Pump Pressure Monitoring",
+      "Tags": ["Pump", "Pressure", "Warning"],
+      "Last_Updated": "2025-01-03T12:00:00Z"
+    },
+    {
+      "Rule_ID": 119,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Fire Suppression System",
+      "Tags": ["Fire", "Suppression", "Safety"],
+      "Last_Updated": "2025-01-02T17:40:00Z"
+    },
+    {
+      "Rule_ID": 120,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Routine Diagnostics",
+      "Tags": ["Diagnostics", "Routine"],
+      "Last_Updated": "2025-01-01T19:00:00Z"
+    },
+    {
+      "Rule_ID": 101,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "High Temperature Alert",
+      "Tags": ["Temperature", "Alert", "Critical"],
+      "Last_Updated": "2025-01-20T14:35:00Z"
+    },
+    {
+      "Rule_ID": 102,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Low Pressure Alert",
+      "Tags": ["Pressure", "Monitoring", "Warning"],
+      "Last_Updated": "2025-01-19T10:20:00Z"
+    },
+    {
+      "Rule_ID": 103,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Humidity Level Check",
+      "Tags": ["Humidity", "Monitoring"],
+      "Last_Updated": "2025-01-18T08:15:00Z"
+    },
+    {
+      "Rule_ID": 104,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Smoke Detection Alert",
+      "Tags": ["Smoke", "Fire", "Safety"],
+      "Last_Updated": "2025-01-17T17:50:00Z"
+    },
+    {
+      "Rule_ID": 105,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Vibration Level Monitoring",
+      "Tags": ["Vibration", "Machine", "Health"],
+      "Last_Updated": "2025-01-16T12:00:00Z"
+    },
+    {
+      "Rule_ID": 106,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "CO2 Level Alert",
+      "Tags": ["CO2", "Air Quality", "Critical"],
+      "Last_Updated": "2025-01-15T14:30:00Z"
+    },
+    {
+      "Rule_ID": 107,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Energy Consumption Monitoring",
+      "Tags": ["Energy", "Efficiency", "Tracking"],
+      "Last_Updated": "2025-01-14T09:45:00Z"
+    },
+    {
+      "Rule_ID": 108,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Water Flow Alert",
+      "Tags": ["Water", "Flow", "Monitoring"],
+      "Last_Updated": "2025-01-13T16:15:00Z"
+    },
+    {
+      "Rule_ID": 109,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Gas Leak Detection",
+      "Tags": ["Gas", "Leak", "Safety"],
+      "Last_Updated": "2025-01-12T18:05:00Z"
+    },
+    {
+      "Rule_ID": 110,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "System Health Check",
+      "Tags": ["System", "Health", "Diagnostics"],
+      "Last_Updated": "2025-01-11T11:20:00Z"
+    },
+    {
+      "Rule_ID": 111,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Battery Voltage Alert",
+      "Tags": ["Battery", "Voltage", "Warning"],
+      "Last_Updated": "2025-01-10T13:10:00Z"
+    },
+    {
+      "Rule_ID": 112,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "Overcurrent Detection",
+      "Tags": ["Current", "Safety", "Alert"],
+      "Last_Updated": "2025-01-09T15:25:00Z"
+    },
+    {
+      "Rule_ID": 113,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Ambient Light Monitoring",
+      "Tags": ["Light", "Monitoring"],
+      "Last_Updated": "2025-01-08T16:45:00Z"
+    },
+    {
+      "Rule_ID": 114,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Network Connectivity Check",
+      "Tags": ["Network", "Connectivity", "Diagnostics"],
+      "Last_Updated": "2025-01-07T11:30:00Z"
+    },
+    {
+      "Rule_ID": 115,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "High Voltage Alert",
+      "Tags": ["Voltage", "High", "Alert"],
+      "Last_Updated": "2025-01-06T14:20:00Z"
+    },
+    {
+      "Rule_ID": 116,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Fan Speed Monitoring",
+      "Tags": ["Fan", "Speed", "Tracking"],
+      "Last_Updated": "2025-01-05T10:15:00Z"
+    },
+    {
+      "Rule_ID": 117,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Generator Fuel Level",
+      "Tags": ["Generator", "Fuel", "Critical"],
+      "Last_Updated": "2025-01-04T09:50:00Z"
+    },
+    {
+      "Rule_ID": 118,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Pump Pressure Monitoring",
+      "Tags": ["Pump", "Pressure", "Warning"],
+      "Last_Updated": "2025-01-03T12:00:00Z"
+    },
+    {
+      "Rule_ID": 119,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Fire Suppression System",
+      "Tags": ["Fire", "Suppression", "Safety"],
+      "Last_Updated": "2025-01-02T17:40:00Z"
+    },
+    {
+      "Rule_ID": 120,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Routine Diagnostics",
+      "Tags": ["Diagnostics", "Routine"],
+      "Last_Updated": "2025-01-01T19:00:00Z"
+    },
+    {
+      "Rule_ID": 101,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "High Temperature Alert",
+      "Tags": ["Temperature", "Alert", "Critical"],
+      "Last_Updated": "2025-01-20T14:35:00Z"
+    },
+    {
+      "Rule_ID": 102,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Low Pressure Alert",
+      "Tags": ["Pressure", "Monitoring", "Warning"],
+      "Last_Updated": "2025-01-19T10:20:00Z"
+    },
+    {
+      "Rule_ID": 103,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Humidity Level Check",
+      "Tags": ["Humidity", "Monitoring"],
+      "Last_Updated": "2025-01-18T08:15:00Z"
+    },
+    {
+      "Rule_ID": 104,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Smoke Detection Alert",
+      "Tags": ["Smoke", "Fire", "Safety"],
+      "Last_Updated": "2025-01-17T17:50:00Z"
+    },
+    {
+      "Rule_ID": 105,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Vibration Level Monitoring",
+      "Tags": ["Vibration", "Machine", "Health"],
+      "Last_Updated": "2025-01-16T12:00:00Z"
+    },
+    {
+      "Rule_ID": 106,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "CO2 Level Alert",
+      "Tags": ["CO2", "Air Quality", "Critical"],
+      "Last_Updated": "2025-01-15T14:30:00Z"
+    },
+    {
+      "Rule_ID": 107,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Energy Consumption Monitoring",
+      "Tags": ["Energy", "Efficiency", "Tracking"],
+      "Last_Updated": "2025-01-14T09:45:00Z"
+    },
+    {
+      "Rule_ID": 108,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Water Flow Alert",
+      "Tags": ["Water", "Flow", "Monitoring"],
+      "Last_Updated": "2025-01-13T16:15:00Z"
+    },
+    {
+      "Rule_ID": 109,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Gas Leak Detection",
+      "Tags": ["Gas", "Leak", "Safety"],
+      "Last_Updated": "2025-01-12T18:05:00Z"
+    },
+    {
+      "Rule_ID": 110,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "System Health Check",
+      "Tags": ["System", "Health", "Diagnostics"],
+      "Last_Updated": "2025-01-11T11:20:00Z"
+    },
+    {
+      "Rule_ID": 111,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Battery Voltage Alert",
+      "Tags": ["Battery", "Voltage", "Warning"],
+      "Last_Updated": "2025-01-10T13:10:00Z"
+    },
+    {
+      "Rule_ID": 112,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "Overcurrent Detection",
+      "Tags": ["Current", "Safety", "Alert"],
+      "Last_Updated": "2025-01-09T15:25:00Z"
+    },
+    {
+      "Rule_ID": 113,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Ambient Light Monitoring",
+      "Tags": ["Light", "Monitoring"],
+      "Last_Updated": "2025-01-08T16:45:00Z"
+    },
+    {
+      "Rule_ID": 114,
+      "Status": "Active",
+      "Priority": "Moderate",
+      "Rule_Name": "Network Connectivity Check",
+      "Tags": ["Network", "Connectivity", "Diagnostics"],
+      "Last_Updated": "2025-01-07T11:30:00Z"
+    },
+    {
+      "Rule_ID": 115,
+      "Status": "Paused",
+      "Priority": "High",
+      "Rule_Name": "High Voltage Alert",
+      "Tags": ["Voltage", "High", "Alert"],
+      "Last_Updated": "2025-01-06T14:20:00Z"
+    },
+    {
+      "Rule_ID": 116,
+      "Status": "Active",
+      "Priority": "Low",
+      "Rule_Name": "Fan Speed Monitoring",
+      "Tags": ["Fan", "Speed", "Tracking"],
+      "Last_Updated": "2025-01-05T10:15:00Z"
+    },
+    {
+      "Rule_ID": 117,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Generator Fuel Level",
+      "Tags": ["Generator", "Fuel", "Critical"],
+      "Last_Updated": "2025-01-04T09:50:00Z"
+    },
+    {
+      "Rule_ID": 118,
+      "Status": "Paused",
+      "Priority": "Moderate",
+      "Rule_Name": "Pump Pressure Monitoring",
+      "Tags": ["Pump", "Pressure", "Warning"],
+      "Last_Updated": "2025-01-03T12:00:00Z"
+    },
+    {
+      "Rule_ID": 119,
+      "Status": "Active",
+      "Priority": "High",
+      "Rule_Name": "Fire Suppression System",
+      "Tags": ["Fire", "Suppression", "Safety"],
+      "Last_Updated": "2025-01-02T17:40:00Z"
+    },
+    {
+      "Rule_ID": 120,
+      "Status": "Paused",
+      "Priority": "Low",
+      "Rule_Name": "Routine Diagnostics",
+      "Tags": ["Diagnostics", "Routine"],
+      "Last_Updated": "2025-01-01T19:00:00Z"
+    }
+  ]
+}
